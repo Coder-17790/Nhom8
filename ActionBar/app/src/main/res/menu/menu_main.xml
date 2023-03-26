@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_action_name"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/app_shared"
+        android:icon="@drawable/ic_action_share1"
+        android:title="Share"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/app_login"
+        android:icon="@drawable/icon_login"
+        android:title="Login"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/item1"
+        android:title="Hoàng Tuấn" />
+    <item
+        android:id="@+id/item2"
+        android:title="Quang Hậu" />
+    <item
+        android:id="@+id/item3"
+        android:title="Nguyên Bảo" />
+    <item
+        android:id="@+id/item4"
+        android:title="Xuân Tuấn" />
+    <item
+        android:id="@+id/item5"
+        android:title="Công Trường" />
+</menu>
